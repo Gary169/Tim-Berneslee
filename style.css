@@ -1,0 +1,81 @@
+#welcome {
+    text-align: center;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax {
+    text-align: center;
+    background: linear-gradient(#dffc03 0%, #fcad03 100%);
+    align-content: center;
+    display: table-cell; 
+    position: relative; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#img {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 8%;
+}
+
+.font {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#div {
+    align-content: center;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+    color: dimgray;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    
+}
+
+.links:hover {
+    text-decoration-color: azure;
+    background-color: darkgray;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.iframe {
+    align-content: center;
+}
+
+.a {
+    text-align: center;
+}
+
+.divcontact {
+    text-align: center;
+}
